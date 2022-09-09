@@ -4,7 +4,7 @@
 
 /**
  * main - Program determines if number is positive or negative
- *
+ * uche momah writes
  * Return: Always 0 (Success)
  */
 
