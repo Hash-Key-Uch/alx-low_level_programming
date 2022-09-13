@@ -1,21 +1,24 @@
 #include "main.h"
+
 /**
- * print_alphabet_x10 - Write a function that prints 10 times the alphabet
- * and followed by a new line
- * Return: x10 a-z
+ * print_alphabet_x10 - Prints the alphabet 10 times.
+ * Followed by a new line
+ * Return: Always 0 (Success)
  */
+
 void print_alphabet_x10(void)
 {
-	char decuple, alpha;
+	int a, b;
 
-	decuple = 0;
-	while (decuple < 10)
+	for (a = 0; a <= 9; a++)
+
+
 	{
-		for (alpha = 'a'; alpha <= 'z'; alpha++)
+		for (b = 97; b <= 122; b++)
+
 		{
-			_putchar (alpha);
+			_putchar(b);
 		}
-		decuple++;
-		_putchar('\n');
+	_putchar('\n');
 	}
 }
