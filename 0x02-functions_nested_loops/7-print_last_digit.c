@@ -5,21 +5,31 @@
  * @n: uses int print_last_digit(int n)
  * Return: last digit.
  */
+
 int print_last_digit(int n)
+
 {
-	int l;
 
-	l = n % 0;
+	int pld;
 
-	if (l < 0)
+
+
+	pld = (n % 10);
+
+
+
+	if (pld < 0)
 
 	{
-		_putchar(-l + 48);
-		return (-l);
+
+		pld = (-1 * pld);
+
 	}
-	else
-	{
-		_putchar(l + 48);
-		return (l);
-	}
+
+
+
+	_putchar(pld + '0');
+
+	return (pld);
+
 }
