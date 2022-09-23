@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: 'the program's description'
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Description: 'the program's description'
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
@@ -20,7 +20,7 @@ int *p;
 a[2] = 1024;
 
 p = &n;
-  
+
 /*
 * write your line of code here...
 * Remember:
